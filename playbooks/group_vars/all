@@ -186,17 +186,12 @@ blueprint_dynamic:                                        # properties for the d
       - METRICS_COLLECTOR
       - METRICS_GRAFANA
       - METRICS_MONITOR
-      - HST_SERVER
-      - ACTIVITY_ANALYZER
-      - ACTIVITY_EXPLORER
-      - HST_AGENT
   - host_group: "hdp-slave"
     clients: ['ZOOKEEPER_CLIENT', 'HDFS_CLIENT', 'YARN_CLIENT', 'MAPREDUCE2_CLIENT', 'TEZ_CLIENT', 'PIG', 'SQOOP', 'HIVE_CLIENT', 'OOZIE_CLIENT', 'INFRA_SOLR_CLIENT', 'SPARK2_CLIENT']
     services:
       - DATANODE
       - NODEMANAGER
       - METRICS_MONITOR
-      - HST_AGENT
 
 
 
