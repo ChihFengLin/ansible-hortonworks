@@ -14,5 +14,4 @@ ansible_ssh_pass=vagrant
 master01 ansible_host=192.168.100.3
 
 [hdp-slave]
-slave01 ansible_host=192.168.0.2
-slave02 ansible_host=192.168.0.4
+slave01 ansible_host=192.168.100.4
